@@ -5,11 +5,9 @@
 	"private": true,
 	"dependencies": {
 		"classnames": "^2.2.6",
-		"lodash": "^4.17.21",
 		"npm": "^8.13.0",
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
-		"react-ga": "^2.7.0",
 		"react-native": "^0.68.2",
 		"react-native-svg": "^12.3.0",
 		"react-native-web": "^0.18.1",

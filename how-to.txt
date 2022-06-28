@@ -91,4 +91,7 @@ Timeline
 https://www.npmjs.com/package/react-vertical-timeline-component
 $ npm i react-vertical-timeline-component
 
-v2
+Clean the project
+delete node_modules
+delete package_lock.json
+npm install
