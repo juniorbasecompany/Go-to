@@ -73,11 +73,10 @@ const FeaturesSplit = ({
 								</div>
 								<h3 className="mt-0 mb-12">ID</h3>
 								<p className="m-0">
-									Os produtos são identificados na origem.
-									Esta identificação dá origem a uma chave que
-									armazenada de forma segura e imutável na
-									blockchain e pode ser visualizada como um
-									QRCode.
+									Products are identified at source. This
+									identification gives rise to a key that is
+									stored securely and immutably on the
+									blockchain and can be viewed as a QRCode.
 								</p>
 							</div>
 							<div
@@ -135,12 +134,12 @@ const FeaturesSplit = ({
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
 									Easy integration
 								</div>
-								<h3 className="mt-0 mb-12">XML</h3>
+								<h3 className="mt-0 mb-12">JSON</h3>
 								<p className="m-0">
 									With the product ID, any person or company
 									can look up the story of this product. This
-									story is told through an XML file, along
-									with its structure in an XSD file.
+									story is told through a JSON data, along
+									with its structure in show by a JSON schema.
 								</p>
 							</div>
 							<div
@@ -152,6 +151,47 @@ const FeaturesSplit = ({
 							>
 								<Image
 									src={require("./../../assets/images/features-split-image-03.png")}
+									alt="Features split 03"
+									width={528}
+									height={396}
+								/>
+							</div>
+						</div>
+
+						<div className="split-item">
+							<div
+								className="split-item-content center-content-mobile reveal-from-left"
+								data-reveal-container=".split-item"
+							>
+								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+									How information is stored
+								</div>
+								<h3 className="mt-0 mb-12">Block</h3>
+								<p className="m-0">
+									The block is composed by its hash and the
+									hash to the previous block.
+								</p>
+								<p className="m-0">
+									Inside the block exists the public and the
+									private data. The public data is open and
+									the private only the owner can access.
+								</p>
+								<p className="m-0">
+									The data is stored in JSON format with a
+									JSON schema attached to it in order to
+									describe the information that is inside the
+									JSON data.
+								</p>
+							</div>
+							<div
+								className={classNames(
+									"split-item-image center-content-mobile reveal-from-bottom",
+									imageFill && "split-item-image-fill"
+								)}
+								data-reveal-container=".split-item"
+							>
+								<Image
+									src={require("./block.svg")}
 									alt="Features split 03"
 									width={528}
 									height={396}
