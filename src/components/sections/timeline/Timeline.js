@@ -39,7 +39,7 @@ const Timeline = ({
 	const sectionHeader = {
 		title: "Timeline of a product",
 		paragraph:
-			"Here we can see how a product can be traced, from its origin to its destination.",
+			"Here we can see how a product can be traced, from origin to destination.",
 	};
 
 	return (
